@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SO_3_06/!svn/ver/901/SO2/src/hawkge/chat/chatsession
+END
+ChatSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/842/SO2/src/hawkge/chat/chatsession/ChatSession.java
+END
+ChatMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/847/SO2/src/hawkge/chat/chatsession/ChatMessage.java
+END
+TeamChatSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SO_3_06/!svn/ver/875/SO2/src/hawkge/chat/chatsession/TeamChatSession.java
+END
+NormalChatSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SO_3_06/!svn/ver/893/SO2/src/hawkge/chat/chatsession/NormalChatSession.java
+END
+GameChatSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SO_3_06/!svn/ver/901/SO2/src/hawkge/chat/chatsession/GameChatSession.java
+END

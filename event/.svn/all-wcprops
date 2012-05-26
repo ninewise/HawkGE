@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/SO_3_06/!svn/ver/918/SO2/src/hawkge/event
+END
+Callable.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/SO_3_06/!svn/ver/32/SO2/src/hawkge/event/Callable.java
+END
+QueueClosedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/SO_3_06/!svn/ver/789/SO2/src/hawkge/event/QueueClosedEvent.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/SO_3_06/!svn/ver/74/SO2/src/hawkge/event/Event.java
+END
+Terminator.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SO_3_06/!svn/ver/761/SO2/src/hawkge/event/Terminator.java
+END
+EventQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/SO_3_06/!svn/ver/918/SO2/src/hawkge/event/EventQueue.java
+END
+EventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SO_3_06/!svn/ver/32/SO2/src/hawkge/event/EventListener.java
+END
+ResetQueueEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/SO_3_06/!svn/ver/848/SO2/src/hawkge/event/ResetQueueEvent.java
+END
+NetworkEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/SO_3_06/!svn/ver/621/SO2/src/hawkge/event/NetworkEvent.java
+END

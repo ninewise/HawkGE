@@ -1,0 +1,108 @@
+package hawkge.game;
+
+import hawkge.event.Callable;
+import hawkge.event.Event;
+import hawkge.event.EventListener;
+import hawkge.event.EventQueue;
+import hawkge.game.events.GameInvitationAcceptedEvent;
+import hawkge.game.events.GameInvitationDeclinedEvent;
+import hawkge.game.events.GameInvitationRequestEvent;
+import hawkge.game.events.GameNetworkEvent;
+import hawkge.game.events.GameStartedEvent;
+import hawkge.game.events.PublicGameEvent;
+import hawkge.storage.User;
+import hawkge.storage.events.UserEvent;
+import java.util.ArrayList;
+import javax.swing.DefaultListModel;
+
+/**
+ * Model voor een JList die online spelers toont
+ * @author michaelkint
+ */
+public class PublicGameModel extends DefaultListModel implements EventListener {
+
+    private ArrayList<GameSessionInfo> games;
+    private User user;
+
+    /** Constructoor voor een extensie van DefaultListModel, bedoeld voor Users. */
+    public PublicGameModel() {
+        games = new ArrayList<GameSessionInfo>();
+        getCurrentUser();
+        EventQueue.getQueue().addEventListener(this);
+    }
+
+    /** @return Het aantal users in de lijst. **/
+    @Override
+    public int getSize() {
+        if (games == null) {
+            return 0;
+        }
+        return games.size();
+    }
+
+    /** @return Geef de User op index i terug. 
+    @param i De index waarop de User dient afgehaald te worden. **/
+    @Override
+    public Object getElementAt(int i) {
+        if (games == null) {
+            return null;
+        }
+        return games.get(i);
+    }
+
+    private void getCurrentUser() {
+        EventQueue.queue(new UserEvent(new Callable<User>() {
+
+            public void call(User param) {
+                setCurrentUser(param);
+            }
+        }));
+    }
+
+    public void setCurrentUser(User user) {
+        this.user = user;
+    }
+
+    /** Deze klasse luistert naar de EventQueue, bijvoorbeeld om te handelen wanneer
+    een speler offline gaat. 
+    @param event Het event dat op de EventQueue werd geworpen. **/
+    public void onEvent(Event event) {
+        if (event instanceof PublicGameEvent) {
+            PublicGameEvent evt = (PublicGameEvent) event;
+            GameSessionInfo info = evt.getGameSessionInfo();
+            //if (!user.equals(info.getHost())) {
+                games.add(info);
+            //}
+            fireContentsChanged(this, games.size(), games.size() + 1);
+        } else if (event instanceof GameInvitationRequestEvent) {
+            GameInvitationRequestEvent evt = (GameInvitationRequestEvent) event;
+            for (GameSessionInfo info : games) {
+                if (info.getID().equals(evt.getGameSessionInfo().getID())) {
+                    info.setNumberOfPendingInvitations(info.getNumberofpendinginvitations() + 1);
+                }
+                break;
+            }
+        } else if (event instanceof GameInvitationAcceptedEvent || event instanceof GameInvitationDeclinedEvent) {
+            GameNetworkEvent evt = (GameNetworkEvent) event;
+            for (GameSessionInfo info : games) {
+                if (info.getID().equals(evt.getId())) {
+                    info.setNumberOfPendingInvitations(info.getNumberofpendinginvitations() - 1);
+                    if(info.getNumberofusers() - info.getCurrentNumberOfUsers() - info.getNumberofpendinginvitations() == 0){
+                        games.remove(info);
+                        fireContentsChanged(this, games.size(), games.size() - 1);
+                    }
+                    break;
+                }
+            }
+        } else if (event instanceof GameStartedEvent) {
+            GameStartedEvent evt = (GameStartedEvent) event;
+            for (GameSessionInfo info : games) {
+                if (info.getID().equals(evt.getId())) {
+                    games.remove(info);
+                    fireContentsChanged(this, games.size(), games.size() - 1);
+                }
+                break;
+            }
+        }
+    }
+}

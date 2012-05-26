@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/SO_3_06/!svn/ver/987/SO2/src/hawkge/game
+END
+PublicGameRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SO_3_06/!svn/ver/845/SO2/src/hawkge/game/PublicGameRenderer.java
+END
+GameID.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/SO_3_06/!svn/ver/777/SO2/src/hawkge/game/GameID.java
+END
+GameResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/SO_3_06/!svn/ver/322/SO2/src/hawkge/game/GameResult.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SO_3_06/!svn/ver/913/SO2/src/hawkge/game/Game.java
+END
+GameSessionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SO_3_06/!svn/ver/928/SO2/src/hawkge/game/GameSessionInfo.java
+END
+PublicGameModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SO_3_06/!svn/ver/845/SO2/src/hawkge/game/PublicGameModel.java
+END
+PublicGameListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SO_3_06/!svn/ver/972/SO2/src/hawkge/game/PublicGameListener.java
+END

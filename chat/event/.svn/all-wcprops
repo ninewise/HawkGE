@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/SO_3_06/!svn/ver/870/SO2/src/hawkge/chat/event
+END
+ChatEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/event/ChatEvent.java
+END
+UserAddedToChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/SO_3_06/!svn/ver/679/SO2/src/hawkge/chat/event/UserAddedToChat.java
+END
+AddToChatAccepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/679/SO2/src/hawkge/chat/event/AddToChatAccepted.java
+END
+AddToChatRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SO_3_06/!svn/ver/678/SO2/src/hawkge/chat/event/AddToChatRequest.java
+END
+UserLeavingChatEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SO_3_06/!svn/ver/679/SO2/src/hawkge/chat/event/UserLeavingChatEvent.java
+END
+TeamChatEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/870/SO2/src/hawkge/chat/event/TeamChatEvent.java
+END
+UserAddedToTeamChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/event/UserAddedToTeamChat.java
+END
+AddToTeamChatAccepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/event/AddToTeamChatAccepted.java
+END
+AddToTeamChatRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SO_3_06/!svn/ver/863/SO2/src/hawkge/chat/event/AddToTeamChatRequest.java
+END

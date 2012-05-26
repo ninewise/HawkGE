@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/SO_3_06/!svn/ver/930/SO2/src/hawkge/chat/actions
+END
+AcceptTeamAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SO_3_06/!svn/ver/930/SO2/src/hawkge/chat/actions/AcceptTeamAction.java
+END
+SelectFontAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SO_3_06/!svn/ver/615/SO2/src/hawkge/chat/actions/SelectFontAction.java
+END
+FontCancelAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SO_3_06/!svn/ver/606/SO2/src/hawkge/chat/actions/FontCancelAction.java
+END
+SelectColorAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SO_3_06/!svn/ver/615/SO2/src/hawkge/chat/actions/SelectColorAction.java
+END
+AddFriendAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/492/SO2/src/hawkge/chat/actions/AddFriendAction.java
+END
+CancelAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SO_3_06/!svn/ver/256/SO2/src/hawkge/chat/actions/CancelAction.java
+END
+ColorCancel.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/607/SO2/src/hawkge/chat/actions/ColorCancel.java
+END
+FontAcceptAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SO_3_06/!svn/ver/593/SO2/src/hawkge/chat/actions/FontAcceptAction.java
+END
+AddPersonToTeamChatAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/actions/AddPersonToTeamChatAction.java
+END
+SendAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SO_3_06/!svn/ver/847/SO2/src/hawkge/chat/actions/SendAction.java
+END
+CancelTeamAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/actions/CancelTeamAction.java
+END
+LeaveAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/679/SO2/src/hawkge/chat/actions/LeaveAction.java
+END
+AcceptAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SO_3_06/!svn/ver/930/SO2/src/hawkge/chat/actions/AcceptAction.java
+END
+TeamSendAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SO_3_06/!svn/ver/854/SO2/src/hawkge/chat/actions/TeamSendAction.java
+END
+ColorAccept.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/606/SO2/src/hawkge/chat/actions/ColorAccept.java
+END

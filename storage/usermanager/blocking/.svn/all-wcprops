@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking
+END
+BlockedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking/BlockedEvent.java
+END
+DeblockEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking/DeblockEvent.java
+END
+BlocksListEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking/BlocksListEvent.java
+END
+BlockEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking/BlockEvent.java
+END
+DeblockedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/SO_3_06/!svn/ver/803/SO2/src/hawkge/storage/usermanager/blocking/DeblockedEvent.java
+END

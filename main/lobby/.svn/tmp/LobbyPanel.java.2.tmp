@@ -1,0 +1,27 @@
+package hawkge.main.lobby;
+
+import java.awt.BorderLayout;
+import java.awt.Panel;
+import javax.swing.JList;
+import javax.swing.JScrollPane;
+
+/**
+ * @create on Apr 20, 2012
+ * @author jorisvi
+ */
+public class LobbyPanel extends Panel {
+
+    public LobbyPanel (JList friendsList) {
+        super();
+        setLayout(new BorderLayout());
+        JScrollPane scrollPane = new JScrollPane(friendsList);
+        add(scrollPane);
+//        PublicGameModel listmodel = new PublicGameModel();        
+//        JList publicGameList = new JList(listmodel);        
+//        publicGameList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+//        publicGameList.setCellRenderer(new PublicGameRenderer());
+//        publicGameList.setBackground(Color.red);
+//        JScrollPane gameScrollPane = new JScrollPane(publicGameList);
+//        add(gameScrollPane, BorderLayout.EAST);
+    }
+}

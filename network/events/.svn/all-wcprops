@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/SO_3_06/!svn/ver/955/SO2/src/hawkge/network/events
+END
+AcceptConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/SO_3_06/!svn/ver/955/SO2/src/hawkge/network/events/AcceptConnection.java
+END
+HeartBeat.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/892/SO2/src/hawkge/network/events/HeartBeat.java
+END
+OnlineUserListEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/SO_3_06/!svn/ver/342/SO2/src/hawkge/network/events/OnlineUserListEvent.java
+END
+ConnectFriendEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/SO_3_06/!svn/ver/342/SO2/src/hawkge/network/events/ConnectFriendEvent.java
+END
+UpdateUserEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/SO_3_06/!svn/ver/856/SO2/src/hawkge/network/events/UpdateUserEvent.java
+END
+RequestConnectionEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/SO_3_06/!svn/ver/618/SO2/src/hawkge/network/events/RequestConnectionEvent.java
+END

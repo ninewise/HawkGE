@@ -1,0 +1,43 @@
+
+package hawkge.storage;
+
+import hawkge.event.NetworkEvent;
+import java.io.File;
+import java.util.Collection;
+
+/**
+ *
+ * @author felix
+ */
+public class NewGameEvent extends NetworkEvent {
+
+    private byte[] jar;
+    private File jarname;
+    
+    public NewGameEvent(Collection<User> users) {
+        super(users);
+    }
+
+    public NewGameEvent(Collection<User> users, byte[] jar, File jarname) {
+        super(users);
+        this.jar = jar;
+        this.jarname = jarname;
+    }
+
+    /**
+     * Returns a bytearray representing the contents of a jar file.
+     * @return The bytes of the jar file.
+     */
+    public byte[] getJar() {
+        return this.jar;
+    }
+
+    /**
+     * Returns the name of the jar file.
+     * @return
+     */
+    public File getJarFile() {
+        return this.jarname;
+    }
+
+}

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/SO_3_06/!svn/ver/988/SO2/src/hawkge/network
+END
+ConnectingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/SO_3_06/!svn/ver/952/SO2/src/hawkge/network/ConnectingThread.java
+END
+DisconnectingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SO_3_06/!svn/ver/952/SO2/src/hawkge/network/DisconnectingThread.java
+END
+NetworkEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/849/SO2/src/hawkge/network/NetworkEventListener.java
+END
+SocketKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SO_3_06/!svn/ver/953/SO2/src/hawkge/network/SocketKey.java
+END
+ClientThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SO_3_06/!svn/ver/955/SO2/src/hawkge/network/ClientThread.java
+END
+NetworkDataReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/SO_3_06/!svn/ver/915/SO2/src/hawkge/network/NetworkDataReceiver.java
+END
+DataSendingThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/SO_3_06/!svn/ver/955/SO2/src/hawkge/network/DataSendingThread.java
+END
+NetworkModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/SO_3_06/!svn/ver/988/SO2/src/hawkge/network/NetworkModel.java
+END
+NetworkSocketManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/SO_3_06/!svn/ver/952/SO2/src/hawkge/network/NetworkSocketManager.java
+END
+IPAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/SO_3_06/!svn/ver/342/SO2/src/hawkge/network/IPAddress.java
+END

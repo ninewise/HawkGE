@@ -1,0 +1,27 @@
+package hawkge.game;
+
+import hawkge.game.actions.JoinGameAction;
+import java.awt.BorderLayout;
+import javax.swing.JButton;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
+
+/**
+ *
+ * @author michaelkint
+ */
+public class PublicGameListPanel extends JPanel  {
+    
+    public PublicGameListPanel(){
+        setLayout(new BorderLayout());
+        PublicGameModel listmodel = new PublicGameModel();        
+        JList publicGameList = new JList(listmodel);        
+        publicGameList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        publicGameList.setCellRenderer(new PublicGameRenderer());
+        JScrollPane gameScrollPane = new JScrollPane(publicGameList);
+        add(gameScrollPane, BorderLayout.CENTER);
+        add(new JButton(new JoinGameAction(listmodel,publicGameList)),BorderLayout.SOUTH);
+    }    
+}

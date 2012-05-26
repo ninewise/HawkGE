@@ -1,0 +1,68 @@
+package hawkge.main.lobby;
+
+import hawkge.event.EventQueue;
+import java.awt.Color;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
+import javax.swing.JFrame;
+import javax.swing.JList;
+import javax.swing.ListSelectionModel;
+
+/**
+ * @create on Apr 27, 2012
+ * @author jorisvi
+ */
+public class LobbyFrame extends JFrame implements WindowListener {
+    
+    public LobbyFrame() {
+        super("Lobby");
+        setResizable(true);
+        JList friendslist = initFriendJList();
+        setContentPane(new LobbyPanel(friendslist));
+        setJMenuBar(new LobbyMenuBar(friendslist));
+        pack();
+        addWindowListener(this);
+        setVisible(true);
+    }
+    
+    private JList initFriendJList() {
+        LobbyListModel lobbyListModel = new LobbyListModel();
+        JList friendslist = new JList(lobbyListModel);
+        friendslist.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        friendslist.setCellRenderer(new LobbyCellRenderer());
+        friendslist.setBackground(Color.LIGHT_GRAY);
+        return friendslist;
+    }
+
+    public static void main(String[] args) {
+        new LobbyFrame();
+    }
+    
+    public void windowOpened(WindowEvent e) {
+        
+    }
+
+    public void windowClosing(WindowEvent e) {
+        EventQueue.getQueue().close();
+    }
+
+    public void windowClosed(WindowEvent e) {
+        
+    }
+
+    public void windowIconified(WindowEvent e) {
+        
+    }
+
+    public void windowDeiconified(WindowEvent e) {
+        
+    }
+
+    public void windowActivated(WindowEvent e) {
+        
+    }
+
+    public void windowDeactivated(WindowEvent e) {
+        
+    }
+}
