@@ -1,101 +1,0 @@
-10
-
-dir
-988
-https://svn.atlantis.ugent.be/svn/SO_3_06/SO2/src/hawkge/chat
-https://svn.atlantis.ugent.be/svn/SO_3_06
-
-
-
-2012-05-24T08:21:48.388517Z
-930
-SO_3_06_3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-96748cb4-9677-4263-ad78-e235a61c133b
-
-dialog
-dir
-
-test.java
-file
-
-
-
-
-2012-05-23T17:15:37.978159Z
-9e7200932efbbe32442d7435e5241812
-2012-05-23T13:51:09.445839Z
-895
-SO_3_06_2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-824
-
-actions
-dir
-
-model
-dir
-
-event
-dir
-
-chatsession
-dir
-
-pane
-dir
-
-gui
-dir
-
-listener
-dir
-
-font
-dir
-
-textpane
-dir
-
-area
-dir
-
-optionmenu
-dir
-
-color
-dir
-
